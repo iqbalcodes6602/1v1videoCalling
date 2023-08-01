@@ -6,6 +6,7 @@ import "./App.css"
 
 
 const socket = io.connect('http://localhost:5000')
+
 function App() {
 	const [me, setMe] = useState("")
 	const [stream, setStream] = useState()
